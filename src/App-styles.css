@@ -1,0 +1,61 @@
+.cell {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(10, 10, 91);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(9, auto);
+}
+
+
+.result {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(9, auto);
+}
+
+.result-cell {
+    height: 52px;
+    width: 54px;
+    font-size: xx-large;
+    text-align: center;
+    border: 1px solid black;
+    color: rgb(10, 10, 91);
+    border-radius: 5px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit, .reset {
+    margin-top: 10px;
+    font-size: xx-large;
+    background-color: rgb(180, 225, 151);
+    border-radius: 10%;
+}
+
+body {
+    background-color: rgb(33, 25, 25);
+}
+
+* {
+    font-family: 'Mukta', sans-serif;
+}
+
+.title {
+    color: rgb(148, 237, 150);
+}
